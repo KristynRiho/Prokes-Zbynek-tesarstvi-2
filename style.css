@@ -9,12 +9,25 @@ header {
     background-image: url(obrazky/uvodni-foto/uvod-final.png);
     background-size: cover ;
     height: 104vh;
+
 }
 
 /****** header - navigation ******/
+.scroll_menu {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 50;
+    
+}
+
 header nav ul {
     text-align: center;
     background-color: rgba(250, 242, 231, 0.938);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
 }
 
 header nav ul li {
@@ -119,7 +132,7 @@ main h2:after {
 }*/
 
 .photos {
-    margin-bottom: 130px;
+    margin-bottom: 140px;
 }
 /* *** contact *** */
 .contact {
